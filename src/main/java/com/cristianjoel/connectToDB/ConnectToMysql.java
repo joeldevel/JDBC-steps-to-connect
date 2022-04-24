@@ -14,7 +14,7 @@ public class ConnectToMysql {
 		String user = "YOUR_USERNAME";
 		String pass = "YOUR_PASSWORD";
 		try {
-			//2. load the driver
+			// 2. load the driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// 3. Create a connection
