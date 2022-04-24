@@ -13,3 +13,8 @@
 - SQLite db does not need user and password, mysql (for example) does need them
 - The driver can be installed manually or via maven. Go to maven and look for the driver, then paste the dependency in the pom.xml file
 - In the case of SQLite, connection will always succeed, because if db does not exist it will be created
+
+
+## [Code for MySQL](https://github.com/joeldevel/JDBC-steps-to-connect/blob/main/src/main/java/com/cristianjoel/connectToDB/ConnectToMysql.java)
+
+## [Code for SQLite3](https://github.com/joeldevel/JDBC-steps-to-connect/blob/main/src/main/java/com/cristianjoel/connectToDB/ConnectToSqlite.java)
